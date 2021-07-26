@@ -1,0 +1,76 @@
+object frmAffichage: TfrmAffichage
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Align = Top
+    Position.Y = 17.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Align = Top
+    Position.Y = 34.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Anchors = [akRight, akBottom]
+    Position.X = 552.000000000000000000
+    Position.Y = 448.000000000000000000
+    StyleLookup = 'escapetoolbutton'
+    TabOrder = 3
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataModule2.FDMemTable1
+    ScopeMappings = <>
+    Left = 304
+    Top = 224
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 204
+    Top = 85
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      FieldName = 'Nom'
+      Component = Label1
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText2: TLinkPropertyToField
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      FieldName = 'Prenom'
+      Component = Label2
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText3: TLinkPropertyToField
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      FieldName = 'Telephone'
+      Component = Label3
+      ComponentProperty = 'Text'
+    end
+  end
+end
