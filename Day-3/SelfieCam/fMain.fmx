@@ -3,7 +3,7 @@ object frmMain: TfrmMain
   Top = 0
   Caption = 'Form1'
   ClientHeight = 480
-  ClientWidth = 262
+  ClientWidth = 618
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -14,7 +14,7 @@ object frmMain: TfrmMain
       item
       end>
     Align = Client
-    Size.Width = 262.000000000000000000
+    Size.Width = 618.000000000000000000
     Size.Height = 372.000000000000000000
     Size.PlatformDefault = False
     OnClick = Image1Click
@@ -56,7 +56,7 @@ object frmMain: TfrmMain
   object GridPanelLayout1: TGridPanelLayout
     Align = Bottom
     Position.Y = 430.000000000000000000
-    Size.Width = 262.000000000000000000
+    Size.Width = 618.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
@@ -105,7 +105,7 @@ object frmMain: TfrmMain
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Position.X = 7.750000000000000000
+      Position.X = 52.250000000000000000
       Size.Width = 50.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
@@ -118,7 +118,7 @@ object frmMain: TfrmMain
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Position.X = 73.250000000000000000
+      Position.X = 206.750000000000000000
       Size.Width = 50.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
@@ -131,7 +131,7 @@ object frmMain: TfrmMain
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Position.X = 138.750000000000000000
+      Position.X = 361.250000000000000000
       Size.Width = 50.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
@@ -144,7 +144,7 @@ object frmMain: TfrmMain
       Margins.Top = 5.000000000000000000
       Margins.Right = 5.000000000000000000
       Margins.Bottom = 5.000000000000000000
-      Position.X = 204.250000000000000000
+      Position.X = 515.750000000000000000
       Size.Width = 50.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
@@ -153,8 +153,8 @@ object frmMain: TfrmMain
   end
   object CameraComponent1: TCameraComponent
     OnSampleBufferReady = CameraComponent1SampleBufferReady
-    Left = 456
-    Top = 96
+    Left = 56
+    Top = 48
   end
   object btnShare: TButton
     Align = Bottom
@@ -164,7 +164,7 @@ object frmMain: TfrmMain
     Margins.Bottom = 5.000000000000000000
     Position.X = 5.000000000000000000
     Position.Y = 377.000000000000000000
-    Size.Width = 252.000000000000000000
+    Size.Width = 608.000000000000000000
     Size.Height = 48.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 6
@@ -172,7 +172,7 @@ object frmMain: TfrmMain
     OnClick = btnShareClick
   end
   object ActionList1: TActionList
-    Left = 120
+    Left = 192
     Top = 224
     object ShowShareSheetAction1: TShowShareSheetAction
       Category = 'Biblioth'#232'que multim'#233'dia'
