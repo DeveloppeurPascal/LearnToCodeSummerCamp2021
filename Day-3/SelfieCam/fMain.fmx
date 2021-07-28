@@ -1,0 +1,182 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 262
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 262.000000000000000000
+    Size.Height = 372.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Image1Click
+    object ToonEffect1: TToonEffect
+      Enabled = False
+      Levels = 10.000000000000000000
+    end
+    object RippleEffect1: TRippleEffect
+      Enabled = False
+      Amplitude = 0.100000001490116100
+      Frequency = 70.000000000000000000
+      Phase = 0.000000000000000000
+      AspectRatio = 1.500000000000000000
+    end
+    object TilerEffect1: TTilerEffect
+      Enabled = False
+      VerticalTileCount = 4.000000000000000000
+      HorizontalTileCount = 3.000000000000000000
+      HorizontalOffset = 0.000000000000000000
+      VerticalOffset = 0.000000000000000000
+    end
+    object WrapEffect1: TWrapEffect
+      LeftStart = 0.000000000000000000
+      LeftControl1 = 0.250000000000000000
+      LeftControl2 = 0.250000000000000000
+      LeftEnd = 0.000000000000000000
+      RightStart = 1.000000000000000000
+      RightControl1 = 0.750000000000000000
+      RightControl2 = 0.750000000000000000
+      RightEnd = 1.000000000000000000
+    end
+  end
+  object btnPlayPause: TButton
+    Align = Center
+    TabOrder = 2
+    Text = 'btnPlayPause'
+    OnClick = btnPlayPauseClick
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Bottom
+    Position.Y = 430.000000000000000000
+    Size.Width = 262.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    ColumnCollection = <
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end
+      item
+        Value = 25.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Circle1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Circle2
+        Row = 0
+      end
+      item
+        Column = 2
+        Control = Circle3
+        Row = 0
+      end
+      item
+        Column = 3
+        Control = Circle4
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    object Circle1: TCircle
+      Anchors = []
+      Fill.Color = claRed
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 7.750000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle1Click
+    end
+    object Circle2: TCircle
+      Anchors = []
+      Fill.Color = claGreen
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 73.250000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle2Click
+    end
+    object Circle3: TCircle
+      Anchors = []
+      Fill.Color = claBlue
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 138.750000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle3Click
+    end
+    object Circle4: TCircle
+      Anchors = []
+      Fill.Color = claYellow
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 204.250000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+  end
+  object CameraComponent1: TCameraComponent
+    OnSampleBufferReady = CameraComponent1SampleBufferReady
+    Left = 456
+    Top = 96
+  end
+  object btnShare: TButton
+    Align = Bottom
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 377.000000000000000000
+    Size.Width = 252.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Share'
+    OnClick = btnShareClick
+  end
+  object ActionList1: TActionList
+    Left = 120
+    Top = 224
+    object ShowShareSheetAction1: TShowShareSheetAction
+      Category = 'Biblioth'#232'que multim'#233'dia'
+      OnBeforeExecute = ShowShareSheetAction1BeforeExecute
+    end
+  end
+end
