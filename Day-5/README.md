@@ -1,8 +1,8 @@
 # Learn to code Summer camp 2021 - french edition - jour 5
 
-Cinquième et dernière session de ce bootcamp. Ce fut l'occasion de développer rapidement un jeu classique : un casse briques.
+Cinquième et dernière session de ce bootcamp. Ce fut l'occasion de développer rapidement un jeu classique : [un casse briques](https://github.com/DeveloppeurPascal/Casse-Briques).
 
-Soyez libres de vous inspirer de ce code pour créer vos propres casses briques et les republier sur GitHub ou ailleurs. Vous pouvez aussi vous inspirer des techniques évoquées lors du direct afin de développer vos propres jeux.
+Soyez libres de vous inspirer de ce code pour créer vos propres casses briques et les republier sur GitHub ou ailleurs. Vous pouvez aussi vous inspirer des techniques évoquées lors du direct afin de développer vos propres jeux ou [en trouver d'autres sur GitHub](https://github.com/topics/delphi-game).
 
 Cette présentation est disponible en rediffusion sur la page https://apprendre-delphi.fr/ltcsc2021-05.php
 
