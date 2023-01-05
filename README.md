@@ -1,5 +1,6 @@
 # Learn To Code Summer Camp 2021 - french edition
-Du 26 au 30 juillet 2021 Embarcadero organisait un bootcamp intitulé "Learn To Code Summer Camp 2021" afin d'inititier le public à la programmation en Delphi, C++Builder, Python et d'autres technologies.
+
+Du 26 au 30 juillet 2021 [Embarcadero](https://www.embarcadero.com/) organisait un bootcamp intitulé "[Learn To Code Summer Camp 2021](https://apprendre-delphi.fr/learn-to-code-summer-camp-2021.php)" afin d'inititier le public à la programmation en Delphi, C++Builder, Python et d'autres technologies.
 
 Pendant 5 jours de nombreuses sessions ont été proposées en direct et en différé sur différentes plateformes de streaming ou de webinaires. Les rediffusions sont disponibles sur les supports concernés et une série d'articles a été publiée en anglais sur https://blogs.embarcadero.com/learn-to-code-summer-camp-2021/
 
@@ -15,9 +16,11 @@ Le jour 3 nous avons développé une application mobile de prise d'égo portrait
 
 Le jour 4 était l'occasion de voir les ressources disponibles pour l'apprentissage et les développeurs confirmés. De nombreux liens ont été partagés. Après ce tour des docs et sites où obtenir des réponses aux questions, nous sommes passés sur de la revue de code lié aux animations et manipulations de formes ou images dans FireMonkey. Cela a été fait en se basant sur les exemples proposés dans le dépôt https://github.com/DeveloppeurPascal/DelphiFMXGameSnippets
 
-Et pour finir cette semaine de découverte, la cinquième journée a été consacrée au développement simple d'un jeu d'arcade classique : un casse briques.
+Et pour finir cette semaine de découverte, la cinquième journée a été consacrée au développement simple d'un jeu d'arcade classique : [un casse briques](https://github.com/DeveloppeurPascal/Casse-Briques).
 
 Les rediffusions des différentes journées sont disponibles sur https://apprendre-delphi.fr/learn-to-code-summer-camp-2021.php
+
+Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 -----
 
@@ -33,3 +36,16 @@ Des conférences en ligne et des webinaires (points techniques sur des sujets pr
 Des sessions de [live coding sur Twitch](https://www.twitch.tv/patrickpremartin) ou [la chaîne YouTube Developpeur Pascal](https://www.youtube.com/channel/UCk_LmkBB90jdEdmfF77W6qQ) sont également organisées régulièrement. Pour Twitch vous pouvez consulter [le planning hebdomadaire](https://www.twitch.tv/patrickpremartin/schedule). Vous pouvez aussi vous reporter à [cet article](https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html). Pour les rediffusions de tout ça, rendez-vous simplement dans la [rubrique live coding](https://serialstreameur.fr/live-coding.php) de [Serial Streameur](https://serialstreameur.fr/) où vous trouverez de nombreuses vidéos en français à destination des développeurs de logiciels, applications mobiles, sites web et jeux vidéo.
 
 Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur [Delphi Books](https://delphi-books.com)
+
+## Supportez ce projet et son auteur
+
+Si vous trouvez ce dépôt de code utile et voulez le montrer, merci de faire une donation [à son auteur](https://github.com/DeveloppeurPascal). Ca aidera à maintenir le projet (codes sources et binaires).
+
+Vous pouvez utiliser l'un de ces services :
+
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
+* [Liberapay](https://liberapay.com/PatrickPremartin)
+* [Patreon](https://www.patreon.com/patrickpremartin)
+* [Paypal](https://www.paypal.com/paypalme/patrickpremartin)
+
+ou si vous parlez français vous pouvez [vous abonner à Zone Abo](https://zone-abo.fr/nos-abonnements.php) sur une base mensuelle ou annuelle et avoir en plus accès à de nombreuses ressources en ligne (vidéos et articles).
